@@ -24,7 +24,7 @@ const connect = async () => {
   }
 };
 
-const allowedOrigins = ["https://rudra-main.vercel.app"];
+const allowedOrigins = ["https://rudra-app-varcel.onrender.com"];
 
 app.use((req, res, next) => {
   const origin = req.headers.origin;
